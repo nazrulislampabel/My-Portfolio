@@ -1,4 +1,3 @@
-$(document).ready(function() {
 // Header Js
 
 // ------Toggle Mobile Menu------
@@ -169,8 +168,6 @@ scrollProgress.addEventListener('click', () => {
         top: 0,
         behavior: 'smooth'
     });
-});
-  
 });
 
 

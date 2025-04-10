@@ -1,0 +1,160 @@
+@media only screen and (max-width:906px) {
+
+    .TopSection .shape {
+        width: 140px;
+    }
+
+    .Blog_Main_Wrapper {
+        width: 65%;
+        margin: auto;
+    }
+
+    .Blog_Page_Wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .Blog_Content,
+    .Blog_Side_Bar {
+        width: 100%;
+    }
+
+    .Blog_Side_Bar {
+        top: 0 !important;
+        position: relative !important;
+    }
+
+    .Blog_Top_Title {
+        padding: 0;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre {
+        flex-direction: column;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre img,
+    .BlogNextandPrevious .BlogItemNextandPre div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .Blog_Main_Wrapper {
+        width: 75%;
+    }
+
+    .headerblog h2{
+        font-size: 2.7rem;
+    }
+    
+    .headerblog p{
+        font-size: 1.1rem;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:738px) {
+    .Blog_Main_Wrapper {
+        width: 85%;
+    }
+
+    .TopSection .shape {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width:626px) {
+    .Blog_Main_Wrapper {
+        width: 95%;
+    }
+
+    .headerblog h2{
+        font-size: 2.4rem;
+    }
+    
+    .headerblog p{
+        font-size: 1rem;
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:572px) {
+    .Blog_Main_Wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:465px) {
+
+    .Blog_Content .Blog_Content_container h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .Blog_Content .Blog_Content_container .Article_Infos h5 {
+        font-size: .9rem;
+    }
+
+    .Blog_Content .Blog_Content_container .BlogNextandPrevious {
+        flex-direction: column;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre {
+        width: 100%;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre {
+        flex-direction: row;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre img {
+        width: 35%;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre div {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:407px){
+    .headerblog h2{
+        font-size: 2.2rem;
+    }
+    .headerblog form input{
+        font-size: .9rem;
+    }
+    .headerblog form button{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .TopSection .shape {
+        width: 110px;
+    }
+}  
+
+@media only screen and (max-width:300px) {
+    .BlogNextandPrevious .BlogItemNextandPre {
+        flex-direction: column;
+    }
+
+    .BlogNextandPrevious .BlogItemNextandPre img,
+    .BlogNextandPrevious .BlogItemNextandPre div {
+        width: 100%;
+    }
+
+    .Blog_Content .Blog_Content_container h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width:208px){
+
+    .TopSection .shape {
+        width: 100px;
+    }
+}
